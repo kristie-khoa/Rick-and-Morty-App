@@ -1,0 +1,52 @@
+.resident-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.resident-card {
+  width: 200px;
+  height: 350px;
+  border: 1px solid var(--color-button-active);
+  box-shadow: 0px 0px 8px var(--color-border-highlight);
+  margin: 1.5em;
+  display: flex;
+  flex-direction: column;
+}
+
+.resident-img-container {
+  display: flex;
+  overflow: hidden;
+  flex-basis: 200px;
+}
+
+.resident-img {
+  width: 101%;
+  height: auto;
+  object-fit: cover;
+}
+
+.resident-stats {
+  padding: 0 10px 0 10px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.resident-stats h5 {
+  margin: 0;
+  font-size: medium;
+  font-weight: 400;
+}
+
+.resident-stats h4 {
+  margin: 0;
+  font-size: large;
+  font-weight: 700;
+}
+
+.no-residents-cards {
+  font-size: 1.5em;
+  margin: 1.5em;
+}
